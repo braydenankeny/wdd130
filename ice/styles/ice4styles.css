@@ -1,0 +1,23 @@
+body{
+    margin: 10px 30%;
+    background-color: #5ca1d7;
+}
+main{
+    text-align: center;
+}
+h1:hover{
+    color: black;
+}
+.small-text{
+    font-size: 15px;
+}
+section {
+    color: white;
+}
+ol {
+    text-align: left;
+}
+img {
+    width: 45%;
+    margin: 0 auto;
+}
