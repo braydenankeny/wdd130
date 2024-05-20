@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-size: 0;
+    background-color: #737373;
+}
+#title-img{
+    width: 100%;
+}
+#imgs{
+    text-align: center;
+}
+.circle-img{
+    margin: 2%;
+    width: 25%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+}  
