@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Oswald:wght@200..700&display=swap');
+
 header {
     background-color: #5FBFB2;
+    font-family: "Nanum Gothic", Helvetica, sans-serif;
 }
 nav a{
     text-align: center;
     color: #504746;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #C6A15B;
@@ -12,9 +16,22 @@ nav a:hover{
 }
 body{
     background-color: #5FBFB2;
+    font-family: "Nanum Gothic", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+h2{
+    margin: 0;
 }
 .home-title{
     color: #504746;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 #background{
     height: 725px;
@@ -34,6 +51,19 @@ body{
     background-color: #5FBFB2;
     color: #504746;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img{
+border: 10px solid #C6A15B;
+}
+main section img {
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 .book:hover, .join:hover{
     background-color: #C6A15B;
@@ -41,18 +71,24 @@ body{
 }
 .msg{
     background-color: #C6A15B;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #504746;
+    font-family: "Oswald", Helvetica, sans-serif;
 }
 .msg p {
     color: #504746;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .button-box {
     text-align: center;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -60,9 +96,17 @@ body{
 main section {
     text-align: center;
 }
+.mountains{
+    margin: 100px 0;
+}
 footer{
     background-color: #C6A15B;
     color: #504746;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer p{
     font-size: 1.2em;
