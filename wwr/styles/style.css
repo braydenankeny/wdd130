@@ -185,6 +185,57 @@ footer a{
 footer a:hover{
     color: #504746;
 }
+
+/*Page 2*/
+
+#salmonriver{
+    margin: 10%;
+}
+#salmonriverpic{
+    float: left;
+    z-index: 1;
+    position:relative;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#salmonriverinfo{
+    position:relative;
+    top: 50px;
+    left: 50px;
+    background-color: #C6A15B;
+}
+#desolation{
+    margin: 10%;
+}
+#desolationpic{
+    float: left;
+    z-index: 1;
+    position:relative;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#desolationinfo{
+    position:relative;
+    top: 50px;
+    left: 50px;
+    font-size: 110%;
+    background-color: #C6A15B;
+}
+#grandcanyon{
+    margin: 10%;
+}
+#grandcanyonpic{
+    float: left;
+    z-index: 1;
+    position:relative;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#grandcanyoninfo{
+    position:relative;
+    top: 50px;
+    left: 50px;
+    font-size: 110%;
+    background-color: #C6A15B;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
